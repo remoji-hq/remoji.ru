@@ -1,6 +1,8 @@
-# Website
+# remoji.ru
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+The official website of **Remoji** project.
+
+🛠️ https://remoji.ru
 
 ## Installation
 
@@ -24,18 +26,13 @@ yarn build
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-## Deployment
+## License
 
-Using SSH:
+All contents are licensed under [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+<p align=center>
+  <img src="static/img/cc.svg" width="30" alt="CC" />
+  <img src="static/img/by.svg" width="30" alt="BY" />
+  <img src="static/img/nc.svg" width="30" alt="NC" />
+  <img src="static/img/nd.svg" width="30" alt="ND" />
+</p>
