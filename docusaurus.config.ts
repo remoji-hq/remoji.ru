@@ -22,7 +22,12 @@ const config: Config = {
   },
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    }
+  },
 
   presets: [
     [
