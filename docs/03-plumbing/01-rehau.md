@@ -1,3 +1,6 @@
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import ThemedImage from '@theme/ThemedImage';
+
 # Rehau
 
 ## О компании
@@ -37,7 +40,13 @@
 
 ## Rehau и Рехау
 
-<img src="/img/rehau/logo.svg" width="100%" alt="Rehau vs Рехау" />
+<ThemedImage
+  alt="Rehau vs Рехау"
+  sources={{
+    light: useBaseUrl('/img/rehau/logo.svg'),
+    dark: useBaseUrl('/img/rehau/logo_dark.svg'),
+  }}
+/>
 
 Начиная с 2022 года российское представительство компании Rehau начинает работать под собственной маркой Рехау и с собственным логотипом. Российская компания Рехау развивает собственное производственное направление, сквозной контроль качества, испытательные лаборатории и образовательные программы.
 
@@ -63,6 +72,14 @@ With the DZR fitting RAUTITAN MX, that was sold until 2013, corrosion can occur 
 Каталог Рехау в России: https://pro.rhsolutions.ru/catalog/trubi-i-fitingi-347/fitingi-iz-dzr-latuni-mx-dlya-otopleniya-i-vodosnabzheniya-395/
 
 Также по официальной документации Rehau не рекомендуется использовать латунные надвижные гильзы с трубами **RAUTITAN stabil**. Однако по рекомендациям российского Рехау латунные надвижные гильзы серии MX вполне допускается использовать с металлическими фитингами при использовании труб как серии **RAUTITAN flex**, так и **RAUTITAN stabil**.
+
+<ThemedImage
+  alt="Рекомендации Rehau"
+  sources={{
+    light: useBaseUrl('/img/rehau/tech_info.svg'),
+    dark: useBaseUrl('/img/rehau/tech_info_dark.svg'),
+  }}
+/>
 
 ### Cерия **RAUTITAN PX**
 
